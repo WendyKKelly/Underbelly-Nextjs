@@ -5,24 +5,45 @@
       "offset": "70"
     },
     {
-      "label": "Service",
+      "label": "",
+      "path": "#",
+      "offset": "70"
+    },
+    {
+      "label": "",
+      "path": "#",
+      "offset": "70"
+    },
+    {
+      "label": "Grow",
       "path": "#service",
       "offset": "70"
     },
     {
-      "label": "Pricing",
-      "path": "#pricing",
-      "offset": "70"
-    },
-    {
-      "label": "Our Customer",
-      "path": "#our-customer",
-      "offset": "70"
-    },
-    {
-      "label": "Blog",
+      "label": "Media",
       "path": "#blog",
       "offset": "70"
+    }
+  ],
+  "aboutus": [{
+      "id": 1,
+      "title": "Amazing communication experience.",
+      "icon": "flaticon-next"
+    },
+    {
+      "id": 2,
+      "title": "Best designing experience with trending tools and sizes.",
+      "icon": "flaticon-next"
+    },
+    {
+      "id": 3,
+      "title": "Training and communication method remotely.",
+      "icon": "flaticon-next"
+    },
+    {
+      "id": 4,
+      "title": "24/7 Hour onine supports.",
+      "icon": "flaticon-next"
     }
   ],
   "services": [{
@@ -218,44 +239,100 @@
       ]
     }
   ],
+  "features": [{
+      "id": 1,
+      "icon": "flaticon-flask",
+      "title": "Search Optimization",
+      "description": "By using Search Engine Optimization, You will get more Clients"
+    },
+    {
+      "id": 2,
+      "icon": "flaticon-pencil-case",
+      "title": "Ui/UX Design",
+      "description": "We provide the best UI/UX Design by following the latest trends of the market ."
+    },
+    {
+      "id": 3,
+      "icon": "flaticon-ruler",
+      "title": "Wireframing Task",
+      "description": "We respect our customer opinions and deals with them with perfect wireframing "
+    },
+    {
+      "id": 4,
+      "icon": "flaticon-startup",
+      "title": "Business Solutions",
+      "description": "We are commited to provide proper business solutions with reasonable pricing"
+    },
+    {
+      "id": 5,
+      "icon": "flaticon-briefing",
+      "title": "Business Analysis",
+      "description": "A day to day report about your ongoing business for proper understanding"
+    },
+    {
+      "id": 6,
+      "icon": "flaticon-creative",
+      "title": "Content Management",
+      "description": "Proper Content Management is important to find out the real clients for your agencies"
+    }
+  ],
+  "blog": [{
+      "id": 1,
+      "title": "Real home corporation",
+      "thumbnail_url": "../../assets/image/agency/blog/blog-img1.png",
+      "date": "November 02, 2018",
+      "postLink": "#1"
+    },
+    {
+      "id": 2,
+      "title": "Sheltech developer ltd.",
+      "thumbnail_url": "../../assets/image/agency/blog/blog-img2.png",
+      "date": "November 12, 2018",
+      "postLink": "#2"
+    },
+    {
+      "id": 3,
+      "title": "Alt architecture co.",
+      "thumbnail_url": "../../assets/image/agency/blog/blog-img3.png",
+      "date": "December 09, 2018",
+      "postLink": "#3"
+    }
+  ],
   "helps": [{
       "id": 1,
       "icon": "../../assets/image/agencyDigital/support1.png",
       "title": "Email client support",
       "desc": "Ultimate access to all credit popular exercises and assessments materials"
     },
-    {
-      "id": 2,
-      "icon": "../../assets/image/agencyDigital/support2.png",
-      "title": "Live ticket support",
-      "desc": "Total assessment corrections with live support tickets download access system"
-    }
+
+
   ],
+
   "newsFeed": [{
       "id": 1,
       "image": "../../assets/image/agencyDigital/news/1.png",
-      "title": "Introducing our newest team with great experience",
-      "desc": "Brian Halligan knows that you need more than a great product to have a great brand.",
-      "link": "#"
+      "title": "",
+      "desc": "Curious about your emotional wellness? Assessments are a great way to learn more about yourself, what makes you tick, and how you can best take good care of your beautiful self.",
+      "link": "#check-in"
     },
     {
       "id": 2,
       "image": "../../assets/image/agencyDigital/news/2.png",
-      "title": "New banking application has  developed and we expecting good feedback",
+      "title": "",
       "desc": "",
       "link": "#"
     },
     {
       "id": 3,
       "image": "../../assets/image/agencyDigital/news/3.png",
-      "title": "Ui/UX industry are doing great job in previous year history",
+      "title": "",
       "desc": "",
       "link": ""
     },
     {
       "id": 4,
       "image": "../../assets/image/agencyDigital/news/4.png",
-      "title": "Develop you design experience with figma features.",
+      "title": "",
       "desc": "",
       "link": ""
     }
@@ -409,26 +486,26 @@
   "footerNav": [{
       "id": 1,
       "title": "Home",
-      "link": "#"
+      "link": "/"
     },
     {
       "id": 2,
-      "title": "Advertise",
-      "link": "#"
+      "title": "About",
+      "link": "/about"
     },
     {
       "id": 3,
-      "title": "Supports",
+      "title": "",
       "link": "#"
     },
     {
       "id": 4,
-      "title": "Marketing",
+      "title": "Support Our Mission",
       "link": "#"
     },
     {
       "id": 5,
-      "title": "FAQ",
+      "title": "",
       "link": "#"
     }
   ]
