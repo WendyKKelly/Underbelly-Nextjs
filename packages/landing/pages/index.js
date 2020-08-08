@@ -2,63 +2,55 @@ import React, { Fragment } from 'react';
 import Head from 'next/head';
 import Sticky from 'react-stickynode';
 import { ThemeProvider } from 'styled-components';
-import { agencyTheme } from 'common/src/theme/agency';
+import { theme } from 'common/src/theme/agencyDigital';
 import { ResetCSS } from 'common/src/assets/css/style';
-import { GlobalStyle, AgencyWrapper } from '../containers/Agency/agency.style';
-import Navbar from '../containers/Agency/Navbar';
-import BannerSection from '../containers/Agency/BannerSection';
-import FeatureSection from '../containers/Agency/FeatureSection';
-import AboutUsSection from '../containers/Agency/AboutUsSection';
-import WorkHistory from '../containers/Agency/WorkHistory';
-import BlogSection from '../containers/Agency/BlogSection';
-import TestimonialSection from '../containers/Agency/TestimonialSection';
-import TeamSection from '../containers/Agency/TeamSection';
-import VideoSection from '../containers/Agency/VideoSection';
-import NewsletterSection from '../containers/Agency/NewsletterSection';
-import QualitySection from '../containers/Agency/QualitySection';
-import Footer from '../containers/Agency/Footer';
+import {
+  GlobalStyle,
+  ContentWrapper,
+} from '../containers/AgencyDigital/agencyDigital.style';
 import { DrawerProvider } from 'common/src/contexts/DrawerContext';
-import FaqSection from '../containers/Agency/FaqSection';
+import Navbar from '../containers/AgencyDigital/Navbar';
+import Banner from '../containers/AgencyDigital/Banner';
+import Service from '../containers/AgencyDigital/Service';
+import CustomerSupport from '../containers/AgencyDigital/CustomerSupport';
+import Pricing from '../containers/AgencyDigital/Pricing';
+import Support from '../containers/AgencyDigital/Support';
+import OurCustomer from '../containers/AgencyDigital/OurCustomer';
+import News from '../containers/AgencyDigital/News';
+import Footer from '../containers/AgencyDigital/Footer';
 
 export default () => {
   return (
-    <ThemeProvider theme={agencyTheme}>
+    <ThemeProvider theme={theme}>
       <Fragment>
-        {/* Start agency head section */}
         <Head>
-          <title>Agency | A react next landing page</title>
-          <meta name="theme-color" content="#10ac84" />
+          <title>Agency Digital | A react next landing page</title>
+          <meta name="theme-color" content="#FF825C" />
           <meta name="Description" content="React next landing page" />
+
           {/* Load google fonts */}
           <link
-            href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
             rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i|DM+Sans:400,400i,500,500i,700,700i&display=swap"
           />
         </Head>
         <ResetCSS />
         <GlobalStyle />
-        {/* End of agency head section */}
-        {/* Start agency wrapper section */}
-        <AgencyWrapper>
+        <ContentWrapper>
           <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
             <DrawerProvider>
               <Navbar />
             </DrawerProvider>
           </Sticky>
-          <BannerSection />
-          <FeatureSection />
-          <AboutUsSection />
-          <WorkHistory />
-          <BlogSection />
-          <QualitySection />
-          <VideoSection />
-          <TestimonialSection />
-          <TeamSection />
-          <FaqSection />
-          <NewsletterSection />
+          <Banner />
+          <Service />
+          <CustomerSupport />
+          <Pricing />
+          <Support />
+          <OurCustomer />
+          <News />
           <Footer />
-        </AgencyWrapper>
-        {/* End of agency wrapper section */}
+        </ContentWrapper>
       </Fragment>
     </ThemeProvider>
   );

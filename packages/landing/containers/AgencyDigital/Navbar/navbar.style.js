@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
-import navBg from 'common/src/assets/image/agencyModern/nav-bg.png';
+import navBg from 'common/src/assets/image/agencyDigital/nav-bg.png';
 
 const NavbarWrapper = styled.header`
   width: 100%;
   padding: 15px 0 16px;
-  background-color: transparent;
+  background-color: white;
   z-index: 9999;
   transition: all 0.3s ease;
   @media only screen and (max-width: 1366px) {

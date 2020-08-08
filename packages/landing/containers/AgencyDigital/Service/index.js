@@ -18,8 +18,8 @@ const Service = () => {
       <Container>
         <Zoom>
           <SectionHeading
-            slogan="Ideal solutions for you"
-            title="Go beyond ultimate features"
+            slogan="The Underbelly Project"
+            title="A collection of Wild and Precious tools for your emotional health"
           />
         </Zoom>
         <ServiceWrapper>

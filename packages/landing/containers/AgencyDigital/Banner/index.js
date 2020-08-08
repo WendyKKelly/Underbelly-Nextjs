@@ -25,12 +25,12 @@ const Banner = () => {
           <BannerContent>
             <Heading
               as="h1"
-              content="A Creative way to grow your Exciting Business ideas"
+              content="You, unfurled."
             />
 
             <Text
               className="banner-caption"
-              content="Get your blood tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever."
+              content="Your unique imprint — your Wild and Precious emotional self — deserves as much attention, needs as much care, hurts just as much as your physical self. It's time to take your emotional self as seriously as your physical self. Learn, train, and care for your emotional self — start now."
             />
 
             <Subscribe>
@@ -43,14 +43,7 @@ const Banner = () => {
               <Button title="Subscribe" type="submit" />
             </Subscribe>
 
-            <SponsoredBy>
-              <Text className="sponsoredBy" content="Clients:" />
-              <ImageGroup>
-                <Image src={paypal} alt="Paypal" />
-                <Image src={google} alt="Google" />
-                <Image src={dropbox} alt="Dropbox" />
-              </ImageGroup>
-            </SponsoredBy>
+
           </BannerContent>
         </ContentWrapper>
       </Container>

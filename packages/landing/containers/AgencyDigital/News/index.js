@@ -19,10 +19,12 @@ const News = () => {
   return (
     <Section id="blog">
       <Container>
+
         <SectionHeading
-          slogan="Ideal solutions for you"
-          title="Go beyond ultimate features"
+          slogan="It's time to start training and caring for your emotional health — where you are, with what you have available."
+          title="What do you need, right now?"
         />
+
         <ContentWrapper>
           <Masonry className="masonryGrid" options={masonryOptions}>
             {data.newsFeed.map((news, i) => {

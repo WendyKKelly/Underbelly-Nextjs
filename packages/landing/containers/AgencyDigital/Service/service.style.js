@@ -4,6 +4,7 @@ import { themeGet } from '@styled-system/theme-get';
 const Section = styled.div`
   background-color: #f9fbfd;
   padding: 100px 0 120px;
+  
   @media screen and (max-width: 1440px) {
     padding: 50px 0 70px;
   }

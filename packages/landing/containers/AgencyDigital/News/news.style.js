@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
+import illustration from 'common/src/assets/image/agencyDigital/banner.png';
 
 const Section = styled.div`
+
   padding: 70px 0;
   @media screen and (max-width: 1440px) {
     padding: 30px 0 30px;
@@ -11,7 +13,16 @@ const Section = styled.div`
   }
 `;
 
+export const SectionHeading = styled.div`
+.longNarrow {
+color: black;
+}
+`;
+
+
 export const ContentWrapper = styled.div`
+
+
   .masonryGrid {
     margin-left: -15px;
     margin-right: -15px;
@@ -37,14 +48,16 @@ export const BlogPost = styled.div`
     }
   }
   h4 {
-    font-family: Arvo;
+    font-family: Alice;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 70px;
     line-height: 30px;
-    color: #0f2137;
+    color: #545454;
     margin-bottom: 0;
     margin-top: 15px;
   }
+
+
   .learnMore {
     font-weight: 500;
     font-size: 15px;

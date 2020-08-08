@@ -37,10 +37,10 @@ const Navbar = () => {
   };
 
   return (
-    <NavbarWrapper className="agencyModern-navbar navbar">
+    <NavbarWrapper className="agencyDigital-navbar navbar">
       <Container>
         <Logo
-          href="/agencydigital"
+          href="/"
           logoSrc={LogoImage}
           title="Agency Digital"
           className="main-logo"
