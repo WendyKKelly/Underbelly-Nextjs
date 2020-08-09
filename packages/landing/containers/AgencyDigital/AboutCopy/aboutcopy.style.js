@@ -136,6 +136,12 @@ export const Subscribe = styled.div`
     @media only screen and (max-width: 480px) {
       margin-right: 0px;
     }
+    .substack {
+      background-color: white;
+      border-radius: 8px;
+      font-family: Raleway;
+      font-color: #545454;
+    }
     input {
       font-family: DM Sans;
       font-size: 16px;

@@ -1,4 +1,6 @@
 import React from 'react';
+import Iframe from 'react-iframe';
+import Link from 'common/src/components/Link';
 import Text from 'common/src/components/Text';
 import Input from 'common/src/components/Input';
 import Image from 'common/src/components/Image';
@@ -23,27 +25,23 @@ const Banner = () => {
       <Container>
         <ContentWrapper>
           <BannerContent>
-            <Heading
-              as="h1"
-              content="You, unfurled."
-            />
+            <Heading as="h1" content="You, 100%." />
 
             <Text
               className="banner-caption"
-              content="Your unique imprint — your Wild and Precious emotional self — deserves as much attention, needs as much care, hurts just as much as your physical self. It's time to take your emotional self as seriously as your physical self. Learn, train, and care for your emotional self — start now."
+              content="The Underbelly mission is to get us all loving ourselves 100%. Love your body. Love your mind. Love your emotional self. Love all of you — even the so-called 'unloveable bits' Start by subscribing to a free Monday morning newsletter with 10 'wild and precious' things to put you on the right track to an emotionally strong week ahead."
             />
 
-            <Subscribe>
-              <Input
-                inputType="email"
-                placeholder="Enter Email Address"
-                iconPosition="left"
-                aria-label="email"
+            <Subscribe className="substack">
+              <Iframe
+                className="substack"
+                src="https://underbelly.substack.com/embed"
+                width="580px"
+                height="220"
+                frameborder="0"
+                scrolling="no"
               />
-              <Button title="Subscribe" type="submit" />
             </Subscribe>
-
-
           </BannerContent>
         </ContentWrapper>
       </Container>

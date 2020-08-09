@@ -59,5 +59,6 @@
   },
   "main": "index.js",
   "repository": "https://github.com/WendyKKelly/Underbelly-Nextjs.git",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
