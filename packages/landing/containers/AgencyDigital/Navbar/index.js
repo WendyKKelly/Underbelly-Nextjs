@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import Link from 'next/link';
 import Fade from 'react-reveal/Fade';
 import ScrollSpyMenu from 'common/src/components/ScrollSpyMenu';
 import Scrollspy from 'react-scrollspy';
@@ -6,7 +7,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Icon } from 'react-icons-kit';
 import { androidMenu } from 'react-icons-kit/ionicons/androidMenu';
 import { androidClose } from 'react-icons-kit/ionicons/androidClose';
-import Link from 'common/src/components/Link';
+
 import Button from 'common/src/components/Button';
 import Logo from 'common/src/components/UIElements/Logo';
 import Container from 'common/src/components/UI/ContainerTwo';
