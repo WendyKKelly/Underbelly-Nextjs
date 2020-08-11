@@ -22,6 +22,17 @@ module.exports = withPlugins(
     withCSS,
   ],
   {
+    exportPathMap: async function (
+      defaultPathMap,
+      { dev, dir, outDir, distDir, buildId }
+    ) {
+      return {
+        '/': { page: '/' },
+        '/about': { page: '/about' },
+      };
+    },
+  },
+  {
     distDir: '../../dist/functions/next',
   }
 );

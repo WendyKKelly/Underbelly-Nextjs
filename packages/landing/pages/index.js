@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 import Sticky from 'react-stickynode';
 import { ThemeProvider } from 'styled-components';
 import { theme } from 'common/src/theme/agencyDigital';
@@ -33,9 +34,9 @@ export default () => {
           {/* Load google fonts */}
           <link
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Alice&family=Raleway&display=swap" rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Alice&family=Raleway&display=swap"
+            rel="stylesheet"
           />
-
         </Head>
         <ResetCSS />
         <GlobalStyle />
@@ -46,18 +47,25 @@ export default () => {
             </DrawerProvider>
           </Sticky>
           <Banner />
-            <News />
+          Read{' '}
+          <Link href="/Posts/first-post">
+            <a>this page!</a>
+          </Link>
+          Read{' '}
+          <Link href="/about">
+            <a>this page!</a>
+          </Link>
+          Read{' '}
+          <Link href="/about" replace>
+            Login
+          </Link>
+          <News />
           <Service />
-
-
           <CheckIn />
           <BlogSection />
           <FeatureSection />
           <Sad />
-
-<AboutCopy />
-
-
+          <AboutCopy />
           <Footer />
         </ContentWrapper>
       </Fragment>

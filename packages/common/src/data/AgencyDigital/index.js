@@ -14,7 +14,6 @@ import BlogImage1 from '../../assets/image/agencyDigital/blog/blog-img1.png';
 import BlogImage2 from '../../assets/image/agencyDigital/blog/blog-img2.png';
 import BlogImage3 from '../../assets/image/agencyDigital/blog/blog-img3.png';
 
-
 export const data = {
   navItems: [
     {
@@ -78,8 +77,7 @@ export const data = {
       id: 2,
       icon: 'flaticon-creative',
       title: 'Inquiry',
-      description:
-        'Take some time each day to check in with yourself.',
+      description: 'Take some time each day to check in with yourself.',
     },
     {
       id: 3,
@@ -289,8 +287,7 @@ export const data = {
       id: 2,
       icon: serviceIcon2,
       title: 'Stories from my underbelly',
-      desc:
-        'An every so often blog hosted on Medium.',
+      desc: 'An every so often blog hosted on Medium.',
       link: '#',
     },
     {
@@ -325,7 +322,6 @@ export const data = {
         'Take a course to discover and gain compassion for your inner critic.',
       link: 'https://wildprecious.thinkific.com/',
     },
-
   ],
   helps: [
     {
@@ -335,7 +331,6 @@ export const data = {
       desc:
         'A great list of therapists you can serach for by location and other preferences.',
     },
-
   ],
   newsFeed: [
     {
@@ -350,21 +345,24 @@ export const data = {
       id: 2,
       image: news2,
       title: '',
-      desc: 'You can (and should) train your emotional self as much as you train your physcial body. If you take steps each day to get emotionally stronger and more flexible, when storms come, you will be ready',
+      desc:
+        'You can (and should) train your emotional self as much as you train your physcial body. If you take steps each day to get emotionally stronger and more flexible, when storms come, you will be ready',
       link: '#train',
     },
     {
       id: 3,
       image: news3,
       title: '',
-      desc: 'Are you feeling pretty good but want to learn more about how your emotional self ticks? Start here to read, listen, and learn about how to care for your wild and precious self.',
+      desc:
+        'Are you feeling pretty good but want to learn more about how your emotional self ticks? Start here to read, listen, and learn about how to care for your wild and precious self.',
       link: '#learn',
     },
     {
       id: 4,
       image: news4,
       title: '',
-      desc: 'Everybody hurts sometimes. It happens to all of us. If you are suffering now, take needed next steps to care for yourself — Now.',
+      desc:
+        'Everybody hurts sometimes. It happens to all of us. If you are suffering now, take needed next steps to care for yourself — Now.',
       link: '#sad',
     },
   ],
@@ -529,7 +527,7 @@ export const data = {
     {
       id: 2,
       title: 'About',
-      link: '#about',
+      link: '/about/about',
     },
     {
       id: 3,

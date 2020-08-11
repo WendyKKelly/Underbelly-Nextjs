@@ -25,11 +25,14 @@ const Banner = () => {
       <Container>
         <ContentWrapper>
           <BannerContent>
-            <Heading as="h1" content="You, 100%." />
+            <Heading
+              as="h1"
+              content="What if you deeply loved your whole self?"
+            />
 
             <Text
               className="banner-caption"
-              content="The Underbelly mission is to get us all loving ourselves 100%. Love your body. Love your mind. Love your emotional self. Love all of you — even the so-called 'unloveable bits' Start by subscribing to a free Monday morning newsletter with 10 'wild and precious' things to put you on the right track to an emotionally strong week ahead."
+              content="What would change? What if you had compassion for yourself, held yourself in high regard, cared deeply for yourself? You'd be emotionally stronger, more flexible. Wanna try? Start by subscribing to my Monday Monrning newsletter, '10 Wild and Precious Things' — It's a start to your week on sure footing. Simple clear ways to practice loving yourself, loving others, living well."
             />
 
             <Subscribe className="substack">

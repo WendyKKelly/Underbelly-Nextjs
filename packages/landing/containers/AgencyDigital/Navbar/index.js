@@ -24,7 +24,7 @@ const Navbar = () => {
 
   const scrollItems = [];
 
-  data.navItems.forEach(item => {
+  data.navItems.forEach((item) => {
     scrollItems.push(item.path.slice(1));
   });
 
@@ -55,7 +55,9 @@ const Navbar = () => {
           />
           <NavbarRight>
             <li>
-              <Link href="#">Login</Link>
+              <Link href="/about" replace>
+                Login
+              </Link>
             </li>
             <li>
               <Link href="#">Get Started</Link>
@@ -112,10 +114,10 @@ const Navbar = () => {
               </li>
             ))}
             <li>
-              <Link href="#">Login</Link>
+              <Link href="/about">Login</Link>
             </li>
             <li>
-              <Link href="#">Get Started</Link>
+              <Link href="/about">Get Started</Link>
             </li>
           </Scrollspy>
         </Container>
