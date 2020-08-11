@@ -48,7 +48,7 @@ export default () => {
           </Sticky>
           <Banner />
           Read{' '}
-          <Link href="/Posts/first-post">
+          <Link href="/posts/first-post">
             <a>this page!</a>
           </Link>
           Read{' '}
