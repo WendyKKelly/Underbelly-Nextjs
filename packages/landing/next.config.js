@@ -28,9 +28,13 @@ module.exports = withPlugins(
     ) {
       return {
         '/': { page: '/' },
-        '/about': { page: '/about' },
+        '/about.js': { page: '/about' },
       };
     },
+  },
+
+  {
+    exportTrailingSlash: true,
   },
   {
     distDir: '../../dist/functions/next',
